@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0"> 
+        <link
+      rel="stylesheet"
+      href="http://localhost/project/MyProject/static/css/homestyle.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://localhost/project/MyProject/static/css/signupform.css"
+    />
+        <title>Doctor Signup · Ask A Doctor</title>
+             
+    </head>
+    <body >
+        <div class="container">
+            <div class="name">  
+            </div>
+            <div class="content-box">
+                <div class="content-main">
+                    <div class="signup-form">
+                        <h1>Doctor Sign-up</h1>
+                        <h4>Already a User? <a href="doctorlogin.html">Login Here!</a></h4><br />
+                            <form action="doctor_signup.php" method="POST">
+                                <div class="form-group">
+                                <label for="username">Username:</label>
+                <input
+                  type="username"
+                  class="form-control"
+                  id="username"
+                  name="username"
+                  required
+                />
+              </div>
+                                <br /><br />
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required />
+                                  </div>
+                                    <br />
+                                    <div class="form-group">
+                                    <label for="password">Password:</label>
+                                    <input type="password" class="form-control" id="password" name="password" required /><br />
+                                  </div>
+                                <form method="POST">
+                                  <input type="submit" class="btn-primary" value="Sign Up"><a href="doctor_base.html"></a>
+                                   
+                            </form>
+                    </div>
+                    
+                </div>
+            </div>
+       </div>
+    </body>   
+    <style> 
+                body  
+                {  
+                    background-image:url("https://img.freepik.com/free-photo/cup-coffee-near-spectacles-clipboard-with-doctor-s-accessories-background_23-2148214013.jpg?size=626&ext=jpg"); 
+                    background-repeat: no-repeat; 
+                    width:100%;
+                    height:100%;
+                    background-size: cover;
+                    position: relative;
+                } 
+            
+    </style>  
+</html>
+         

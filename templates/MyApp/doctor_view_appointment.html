@@ -1,0 +1,124 @@
+<a href="doctor_base.html">Back</a>
+
+<head>
+  <link
+    href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+    rel="stylesheet"
+    id="bootstrap-css"
+  />
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="http://localhost/project/MyProject/static/css/homestyle.css"
+  />
+
+  <style media="screen">
+    .container {
+      margin-left: 350px;
+      margin-right: 50px;
+    }
+    a:link {
+      text-decoration: none;
+    }
+
+    h6 {
+      text-align: center;
+    }
+
+    .row {
+      margin: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h6 class="panel-title">Your Appointments</h6>
+      </div>
+      <form action="doctor_view_appointment.php" method="POST">
+        <table class="table table-hover" id="dev-table">
+          <thead>
+            <tr>
+              <th>Patient Name</th>
+              <th>Description</th>
+              <th>Email</th>
+              <th>Phone Number</th>
+              <th>Appointment Time</th>
+              <th>Appointment Date</th>
+              <th>prescription</th>
+            </tr>
+          </thead>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><label for="prescription">Prescription</label></td>
+            <td><input type="text" id="prescription" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</body>
+<!-- HTML code to display data in tabular format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>View appointment</title>
+    <!-- CSS FOR STYLING THE PAGE -->
+    <style>
+      table {
+        margin: 0 auto;
+        font-size: large;
+        border: 1px solid black;
+      }
+
+      h1 {
+        text-align: center;
+        color: #006600;
+        font-size: xx-large;
+        font-family: "Gill Sans", "Gill Sans MT", " Calibri", "Trebuchet MS",
+          "sans-serif";
+      }
+
+      td {
+        background-color: #e4f5d4;
+        border: 1px solid black;
+      }
+
+      th,
+      td {
+        font-weight: bold;
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+
+      td {
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <h1>Appointment</h1>
+      <!-- TABLE CONSTRUCTION -->
+      <table>
+        <tr>
+          <th>Patientname</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Email</th>
+          <th>Phone Number</th>
+          <th>Description</th>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>

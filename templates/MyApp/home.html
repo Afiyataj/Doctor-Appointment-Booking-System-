@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="http://localhost/project/MyProject/static/css/homestyle.css"
+    />
+    <title>Home · Ask A Doctor</title>
+  </head>
+  <body>
+    <div class="container" style="font-family: serif">
+      <div id="outer-container">
+        <div class="sidebar">
+          <strong
+            style="
+              color: white;
+              font-family: sans-serif;
+              padding-top: 25px;
+              padding-bottom: 18px;
+              text-align: center;
+              margin: 0px;
+              font-size: 34px;
+            "
+          >
+            <br />
+            QUICK LINKS></strong
+          >
+          <a href="adminlogin.html"
+            ><img
+              class="icon"
+              src="http://localhost/project/MyProject/static/images/PDash.png"
+            />Admin</a
+          >
+          <a href="doctorlogin.html"
+            ><img
+              class="icon"
+              src="http://localhost/project/MyProject/static/images/DocIcon2.png"
+            />
+            Doctor</a
+          >
+          <a href="patientlogin.html"
+            ><img
+              class="icon"
+              src="http://localhost/project/MyProject/static/images/PIcon.png"
+            />
+            Patient</a
+          >
+        </div>
+
+        <div id="home_content">
+          Ask A Doctor - The Spirit to Care
+          <p><strong>Who are we</strong></p>
+          <p>
+            Ask a Doctor is an initiative that was created with inspiration from
+            various websites with added functionalitites and features. The aim
+            of this website is to make Health Care easily accessible and to
+            digitize management systems especially in the rural parts of India.
+          </p>
+
+          <ul>
+            <b>Our Facilities</b>
+            <li>
+              <p>
+                Largest network of the world’s finest and brightest medical
+                experts
+              </p>
+            </li>
+            <li><p>Quaternary healtcare across all specialities</p></li>
+            <li><p>Round-the-clock multi-disciplinary team</p></li>
+            <li><p>Experienced teams with advanced technologies</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      height: 100%;
+    }
+    #home_content {
+      font-family: sans-serif;
+      font-size: 30px;
+      font-weight: normal;
+      margin: 30px 25px;
+      padding: 30px 30px;
+      display: table-cell;
+      width: 75%;
+      vertical-align: top;
+      background-color: #f9f9f9;
+    }
+    #home_content p {
+      padding-top: 0px;
+      font-size: 24px;
+      font-weight: lighter;
+    }
+    #outer-container {
+      display: table;
+      width: 100%;
+      height: 100%;
+    }
+    .sidebar {
+      margin-top: 0px;
+      padding-top: 0px;
+      width: 100%;
+      text-align: center;
+      height: 100%;
+      background-color: rgb(0, 146, 146);
+      font-family: sans-serif;
+      font-size: 34px;
+      font-weight: normal;
+    }
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 25px;
+      text-decoration: none;
+    }
+    .icon {
+      float: left;
+
+      width: 60px;
+      height: 70px;
+    }
+
+    .sidebar a.active {
+      color: rgb(255, 206, 70);
+    }
+
+    .sidebar a:hover:not(.active) {
+      color: rgb(255, 206, 70);
+    }
+
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a {
+        float: left;
+      }
+      div.content {
+        margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+  </style>
+  <style>
+    .heading {
+      background-color: blue;
+    }
+    .heading img {
+      padding-left: 15px;
+      padding-top: 4px;
+      width: 100px;
+      height: 100%;
+      padding-bottom: 0px;
+      float: left;
+    }
+    .heading h1 {
+      margin: 0;
+      padding-top: 34px;
+      padding-bottom: 23px;
+      padding-left: 140px;
+      font-family: Arial;
+      color: rgb(0, 146, 146);
+    }
+    ul.topnav {
+      list-style-type: none;
+      margin: 0px;
+      margin-top: 11px;
+      padding: 0px;
+      overflow: hidden;
+      background-color: rgb(255, 206, 70);
+      font-size: 16px;
+    }
+
+    ul.topnav li {
+      float: left;
+    }
+
+    ul.topnav li a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+      border-radius: 14px;
+    }
+
+    ul.topnav li a:hover:not(.active) {
+      color: rgb(226, 228, 238);
+    }
+
+    ul.topnav li a.active {
+      color: rgb(145, 145, 145);
+    }
+
+    ul.topnav li.right {
+      float: right;
+    }
+
+    @media screen and (max-width: 600px) {
+      ul.topnav li.right,
+      ul.topnav li {
+        float: none;
+      }
+    }
+
+    .dashboard img {
+      margin: 0px;
+      padding: 0px;
+      display: grid;
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+      border: none;
+      outline: none;
+      color: rgb(0, 0, 0);
+      padding: 14px 1px;
+      /* Important for vertical align on mobile phones */
+      /* Important for vertical align on mobile phones */
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #6b7aea;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: rgb(240, 240, 240);
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      color: rgb(233, 233, 233);
+      font-weight: normal;
+    }
+  </style>
+</html>
