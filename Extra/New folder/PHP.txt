@@ -1,0 +1,73 @@
+ INTRODUCTION TO PHP 
+
+      PHP is a server-side scripting language used for form handling and database access. PHP stands for Hypertext Preprocessor. When a browser requests a document that includes PHP script, the Web server that provides the document calls its PHP processor. With PHP the user is not limited to produce output of HTML. The output can be images, PDF files and even Flash movies. The output can also be any text, such as XHTML and XML. 
+      PHP runs on various platforms like Windows, Linux, Unix, Mac OS, etc., PHP is compatible with almost all servers used today (Apache, IIS, etc.), PHP supports a wide range of databases, PHP is free software. 
+      It is open-source which means it is free to download and use. It is very simple to learn and use. The files have the extension “.php”. 
+      Rasmus Lerdorf inspired the first version of PHP and participated in the later versions. It is an interpreted language and it does not require a compiler. 
+      PHP code is executed in the server.
+      It can be integrated with many databases such as Oracle, Microsoft SQL Server, MySQL, PostgreSQL, Sybase, and Informix.
+      It is powerful to hold a content management system like WordPress and can be used to control user access.
+      It supports main protocols like HTTP Basic, HTTP Digest, IMAP, FTP, and others.
+      Websites like www.facebook.com and www.yahoo.com are also built on PHP.
+      One of the main reasons behind this is that PHP can be easily embedded in HTML files and HTML codes can also be written in a PHP file.
+      The thing that differentiates PHP from the client-side language like HTML is, that PHP codes are executed on the server whereas HTML codes are directly rendered on the browser. PHP codes are first executed on the server and then the result is returned to the browser.
+      The only information that the client or browser knows is the result returned after executing the PHP script on the server and not the actual PHP codes present in the PHP file. Also, PHP files can support other client-side scripting languages like CSS and JavaScript.
+
+Other characteristics of PHP are as follows.
+      Simple and fast
+      Efficient
+      Secured
+      Flexible
+      Cross-platform, it works with major operating systems like Windows, Linux, and macOS.
+      Open Source
+      Powerful Library Support
+      Database Connectivity
+
+Syntax:
+
+<?php 
+  PHP code goes here 
+?>
+
+Example:
+
+HTML
+
+<html>
+    
+   <head>
+      <title>PHP Example</title>
+   </head>
+    
+   <body>
+      <?php echo "Hello, World! This is PHP code";?>
+   </body>
+ 
+</html>
+Output:
+
+Hello, World! This is PHP code
+Why should we use PHP?
+
+PHP can actually do anything related to server-side scripting or more popularly known as the backend of a website. For example, PHP can receive data from forms, generate dynamic page content, can work with databases, create sessions, send and receive cookies, send emails, etc. There are also many hash functions available in PHP to encrypt users’ data which makes PHP secure and reliable to be used as a server-side scripting language. So these are some of PHP’s abilities that make it suitable to be used as a server-side scripting language. You will get to know more of these abilities in further tutorials. 
+Even if the above abilities do not convince you of PHP, there are some more features of PHP. PHP can run on all major operating systems like Windows, Linux, Unix, Mac OS X, etc. Almost all of the major servers available today like Apache supports PHP. PHP allows using a wide range of databases. And the most important factor is that it is free to use and download and anyone can download PHP from its official source: www.php.net. 
+Please refer to setting up the development environment and basic syntax of PHP in further articles. 
+
+What’s new in PHP 7.0:
+
+PHP 7 is faster than the previous versions.
+PHP 7 supports new operators.
+PHP 7 supports better Error Handling functionalities.
+PHP 7 supports stricter declarations for types in function parameters.
+References:
+https://en.wikipedia.org/wiki/PHP
+http://php.net/manual/en/introduction.php
+Disadvantages of PHP:
+
+PHP is not secure as it is open source.
+Not good to create desktop applications.
+Not suitable for large Web Applications- Php code is hard to maintain since it is not very modular.
+Modification Problem – PHP does not allow the change in the core behavior of the web applications.
+
+Know more about PHP from :  https://www.geeksforgeeks.org/php-tutorial
+                                                    https://www.guru99.com/php-tutorials.html
